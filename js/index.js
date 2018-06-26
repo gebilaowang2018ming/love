@@ -23,7 +23,7 @@ window.onload=function(){
 			setTimeout(function(){
 				p1.innerHTML="我就知道我在你心里一定是很帅、很幽默、有气质的····";
 				h2.innerHTML="问题2：做我女朋友吧？？";
-				span.innerHTML="<button id=\'ok\'>好啊</button><button id=\'ok1\'>不好</button>";
+				span.innerHTML="<button id=\'ok\'>好啊</button>&nbsp;<button id=\'ok1\'>不好</button>";
 				var ok=document.getElementById("ok");
 				var ok1=document.getElementById("ok1");
 				ok.onclick=function(){
@@ -64,10 +64,7 @@ window.onload=function(){
 		p.style.color="goldenrod";
 		p1.style.color="#0a95f1";
 		span.style.color="#000000"
-		var but=span.getElementsByTagName("button")[0];
-		var but1=span.getElementsByTagName("button")[1];
-		but.style.backgroundColor="#1e88e5";
-		but1.style.backgroundColor="#1e88e5";
+	
 		y();
 	}
 }
